@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,8 +24,27 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0px; /* This will hide the scrollbar in webkit browsers */
+  display: none; /* This will hide the scrollbar in Firefox */
+  margin-top: 10px;
 }
 
+.btn {
+  @apply bg-emerald-400 text-white px-4 py-2 rounded-full;
+}
+h1 {
+  @apply font-bold capitalize text-xl mb-2;
+}
+h2 {
+  @apply font-semibold text-black/65 capitalize text-lg;
+}
+input,
+select,
+textarea {
+  @apply border py-2  rounded-xl px-5;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
