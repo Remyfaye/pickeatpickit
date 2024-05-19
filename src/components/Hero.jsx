@@ -47,7 +47,7 @@ const Hero = () => {
         </header>
 
         {/* hero */}
-        <div className="mt-[3rem] flex max-w-3xl mx-auto flex-col justify-center items-center">
+        <div className="mt-[2rem] flex max-w-3xl mx-auto flex-col justify-center items-center">
           <h1 className="text-3xl text-center lg:text-4xl lg:font-bold font-semibold mt-8">
             your one-step destination for food delivery and courier services
           </h1>
