@@ -19,9 +19,20 @@ const Hero = () => {
         {/* header */}
         <header className=" flex items-center justify-between lg:px-10">
           {/* logo */}
-          <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="img" width={200} height={200} />
+          <h1>PickEatPickIt</h1>
+          <div className="flex items-center gap-2 justify-between">
+            {/* <Image src="/logo.png" alt="img" width={200} height={200} /> */}
           </div>
+
+          <Image
+            className="lg:hidden "
+            src="/menu.png"
+            alt="img"
+            width={40}
+            height={40}
+            // layout="fill"
+            // objectFit="cover"
+          />
 
           {/* nav items */}
           <nav className="text-md right-0 hidden lg:flex capitalize gap-8 items-center ">
@@ -33,16 +44,6 @@ const Hero = () => {
               </>
             ))}
           </nav>
-
-          <Image
-            className="lg:hidden "
-            src="/menu.png"
-            alt="img"
-            width={40}
-            height={40}
-            // layout="fill"
-            // objectFit="cover"
-          />
         </header>
 
         {/* hero */}
