@@ -16,7 +16,7 @@ const GetTheApp = () => {
           Download Now
         </button>
       </div>
-      <Image
+      {/* <Image
         className="absolute left-[50%] bottom-[-10px] object-cover "
         src="/curve.png"
         alt="img"
@@ -24,7 +24,7 @@ const GetTheApp = () => {
         height={300}
         // layout="fill"
         // objectFit="cover"
-      />
+      /> */}
       <Image
         className="mx-auto mt-5  object-cover "
         src="/iphone.png"
