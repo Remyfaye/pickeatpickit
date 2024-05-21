@@ -19,16 +19,29 @@ const Hero = () => {
         {/* header */}
         <header className=" flex items-center justify-between lg:px-10">
           {/* logo */}
-          {/* <Image
-            className=" object-cover"
-            src="/logo.png"
-            alt="img"
-            width={200}
-            height={200}
-            // layout="fill"
-            // objectFit="cover"
-          /> */}
-          <h1>PickEatPickIt</h1>
+          <div className="flex  items-center gap-3">
+            <div className="flex gap-1">
+              <Image
+                className=" object-cover"
+                src="/first.png"
+                alt="img"
+                width={17}
+                height={17}
+                // layout="fill"
+                // objectFit="cover"
+              />
+              <Image
+                className=" object-cover"
+                src="/2nd.png"
+                alt="img"
+                width={17}
+                height={17}
+                // layout="fill"
+                // objectFit="cover"
+              />
+            </div>
+            <h1 className="mt-2">PickEatPickIt</h1>
+          </div>
           <div className="flex items-center gap-2 justify-between">
             {/* <Image src="/logo.png" alt="img" width={200} height={200} /> */}
           </div>
@@ -76,7 +89,7 @@ const Hero = () => {
       </div>
 
       {/* form */}
-      <div className="flex  mx-5 flex-col items-center shadow-xl bg-white mb-10 relative lg:mt-[-6rem] mt-[-15rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col items-center shadow-xl bg-white mb-10 relative lg:mt-[-6rem] mt-[-10rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section
