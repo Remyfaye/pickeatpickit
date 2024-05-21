@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="w-full ">
       <Image
-        className="absolute w-full   h-[95%] object-cover"
+        className="absolute w-full   h-[90%] object-cover"
         src="/bg.jpg"
         alt="img"
         width={500}
