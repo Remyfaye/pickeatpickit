@@ -32,7 +32,7 @@
 }
 
 .btn {
-  @apply bg-emerald-400 text-white px-4 py-2 rounded-full;
+  @apply bg-[#228B22] text-white px-4 py-2 rounded-full;
 }
 h1 {
   @apply font-bold capitalize text-xl mb-2;
@@ -40,10 +40,46 @@ h1 {
 h2 {
   @apply font-semibold text-black/65 capitalize text-lg;
 }
+.header-text {
+  /* font-family: Sora; */
+  font-size: 32.67px;
+  font-weight: 500;
+  line-height: 39.2px;
+  text-align: center;
+}
+.header-text-lg {
+  /* font-family: Sora; */
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+}
+.hero-form-text {
+  /* font-family: Sora; */
+  font-size: 18.41px;
+  /* font-weight: 500; */
+  line-height: 23.2px;
+  text-align: center;
+}
+.hero-search {
+  width: 344px;
+  height: 53px;
+  padding: 7.92px 15.84px 7.92px 27.73px;
+  gap: 18px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+}
+.hero-small {
+  font-family: Instrument Sans;
+  font-size: 18.24px;
+  font-weight: 100;
+  line-height: 22.25px;
+  text-align: center;
+}
 input,
 select,
 textarea {
-  @apply border py-2  rounded-xl px-5;
+  @apply border py-3 w-full my-3 rounded-xl px-5;
 }
 @layer utilities {
   .text-balance {
