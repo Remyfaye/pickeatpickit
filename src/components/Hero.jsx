@@ -19,7 +19,7 @@ const Hero = () => {
         {/* header */}
         <header className=" flex items-center justify-between lg:px-10">
           {/* logo */}
-          <Image
+          {/* <Image
             className=" object-cover"
             src="/logo.png"
             alt="img"
@@ -27,7 +27,8 @@ const Hero = () => {
             height={200}
             // layout="fill"
             // objectFit="cover"
-          />
+          /> */}
+          <h1>PickEatPickIt</h1>
           <div className="flex items-center gap-2 justify-between">
             {/* <Image src="/logo.png" alt="img" width={200} height={200} /> */}
           </div>
