@@ -87,7 +87,7 @@ const Hero = () => {
           <h1 className="header-text lg:header-text-lg lg:mt-10">
             your one-step destination for food delivery and courier services
           </h1>
-          <p className={`${inter.className}hero-small my-5 text-gray-300`}>
+          <p className={`${inter.className} hero-small my-5 text-gray-300`}>
             satisfy your cravings and send packages with ease - all in one place
           </p>
 
@@ -103,7 +103,7 @@ const Hero = () => {
       </div>
 
       {/* form */}
-      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-14rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-13rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section
