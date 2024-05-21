@@ -1,8 +1,14 @@
+"use client";
 import { navItems } from "@/constants";
 import Image from "next/image";
-import React from "react";
-
+import React, { useState } from "react";
+import { Instrument_Sans } from "next/font/google";
+const inter = Instrument_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
 const Hero = () => {
+  const [active, setActive] = useState("home");
   return (
     <section className="w-full ">
       <Image
@@ -60,9 +66,17 @@ const Hero = () => {
           <nav className="text-md right-0 hidden lg:flex capitalize gap-8 items-center ">
             {navItems.map((item) => (
               <>
-                <h1 className=" font-extralight" href="">
+                <a
+                  className={
+                    active === item.label
+                      ? "cursor-pointer border-b-2"
+                      : "cursor-pointer font-extralight"
+                  }
+                  // href="/"
+                  onClick={() => setActive(item.label)}
+                >
                   {item.label}
-                </h1>
+                </a>
               </>
             ))}
           </nav>
@@ -73,7 +87,7 @@ const Hero = () => {
           <h1 className="header-text lg:header-text-lg lg:mt-10">
             your one-step destination for food delivery and courier services
           </h1>
-          <p className="hero-small my-5 text-gray-300">
+          <p className={`${inter.className}hero-small my-5 text-gray-300`}>
             satisfy your cravings and send packages with ease - all in one place
           </p>
 
@@ -89,7 +103,7 @@ const Hero = () => {
       </div>
 
       {/* form */}
-      <div className="flex  mx-5 flex-col items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-10rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-14rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section

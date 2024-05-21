@@ -1,6 +1,6 @@
 const FaQ = () => {
   return (
-    <section className="text-white bg-green-500 p-5 lg:px-32 lg:mt-10">
+    <section className="text-white bg-[#228B22] p-5 lg:px-32 lg:mt-10">
       <h1>Frequently asked questions</h1>
 
       <div className="flex py-5 border-b-[1px] justify-between items-center">
