@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="w-full ">
       <Image
-        className="absolute w-full   h-[90%] object-cover"
+        className="absolute w-full lg:h-[95%]  h-[90%] object-cover"
         src="/bg.jpg"
         alt="img"
         width={500}
@@ -15,7 +15,7 @@ const Hero = () => {
         // objectFit="cover"
       />
 
-      <div className="relative h-[90vh] inset-0 bg-black/50 text-white  capitalize  p-5">
+      <div className="relative h-[90vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize  p-5">
         {/* header */}
         <header className=" flex items-center justify-between lg:px-10">
           {/* logo */}
@@ -89,7 +89,7 @@ const Hero = () => {
       </div>
 
       {/* form */}
-      <div className="flex  mx-5 flex-col items-center shadow-xl bg-white mb-10 relative lg:mt-[-6rem] mt-[-10rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-10rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section
