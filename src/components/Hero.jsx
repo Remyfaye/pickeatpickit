@@ -92,8 +92,8 @@ const Hero = () => {
           </p>
 
           {/* search */}
-          <div className="bg-white mt-5 gap-3 text-black flex items-center px-6 py-3 rounded-full">
-            <p className="text-sm font-[inter] font-extralight text-gray-500">
+          <div className="bg-white mt-5 gap-3 text-black flex items-center lg:py-3 px-5 py-5 rounded-full">
+            <p className="text-[12px] lg:text-[15px] text-center  font-light  text-gray-500">
               search for food by name, resturant or location
             </p>
             <button className="btn hidden lg:flex ">Search</button>
