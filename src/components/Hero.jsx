@@ -23,33 +23,31 @@ const Hero = () => {
 
       <div className="relative h-[90vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize  p-5">
         {/* header */}
-        <header className=" flex items-center justify-between lg:px-10">
+        <header className="flex items-center justify-between lg:px-10">
           {/* logo */}
-          <div className="flex  items-center gap-3">
-            <div className="flex gap-1">
+          {/* <div className="flex  items-center gap-3">
+            <div className="">
               <Image
                 className=" object-cover"
-                src="/first.png"
+                src="/logo-3.png"
                 alt="img"
-                width={17}
-                height={17}
-                // layout="fill"
-                // objectFit="cover"
-              />
-              <Image
-                className=" object-cover"
-                src="/2nd.png"
-                alt="img"
-                width={17}
-                height={17}
+                width={90}
+                height={90}
                 // layout="fill"
                 // objectFit="cover"
               />
             </div>
-            <h1 className="mt-2">PickEatPickIt</h1>
-          </div>
-          <div className="flex items-center gap-2 justify-between">
-            {/* <Image src="/logo.png" alt="img" width={200} height={200} /> */}
+            <h1 className="mt-2 mr-5">PickEatPickIt</h1>
+          </div> */}
+          <div className="flex items-center  ">
+            <Image
+              className="ml-[-33px]"
+              src="/logo-3.png"
+              alt="img"
+              width={100}
+              height={100}
+            />
+            <span className="font-bold ml-[-25px]">PickEatPickIt</span>
           </div>
 
           <Image
@@ -103,7 +101,7 @@ const Hero = () => {
       </div>
 
       {/* form */}
-      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-13rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-12rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section
