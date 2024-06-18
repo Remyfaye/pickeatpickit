@@ -22,7 +22,7 @@ const Hero = () => {
       />
 
       {/* after header(body) */}
-      <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize py-3  px-3">
+      <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize py-1  px-3">
         {/* header */}
         <header className="flex items-center justify-between lg:px-10">
           {/* logo */}
@@ -69,7 +69,7 @@ const Hero = () => {
 
         {/* body */}
         <div className=" flex max-w-3xl mx-auto flex-col justify-center items-center">
-          <h1 className="header-text lg:header-text-lg lg:mt-10">
+          <h1 className="header-text lg:header-text-lg mt-2 lg:mt-10">
             your one-step destination for food delivery and courier services
           </h1>
           <p className={` hero-small my-5 text-gray-300`}>
