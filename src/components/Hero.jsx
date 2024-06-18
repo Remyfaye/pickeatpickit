@@ -4,6 +4,12 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Instrument_Sans } from "next/font/google";
 import Header from "./Header";
+import FeaturedResturants from "./FeaturedResturants";
+import FaQ from "./FaQ";
+import FeedBack from "./FeedBack";
+import GetTheApp from "./GetTheApp";
+import Landing from "./Landing";
+import Footer from "./Footer";
 const inter = Instrument_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -116,6 +122,9 @@ const Hero = () => {
             </p>
             <button className="btn">Send</button>
           </div>
+
+          <Landing />
+          <Footer />
         </div>
       </div>
     </section>

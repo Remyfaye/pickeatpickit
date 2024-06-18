@@ -8,7 +8,7 @@ import GetTheApp from "./GetTheApp";
 const Landing = () => {
   return (
     <>
-      <div>
+      <div className="">
         <Image
           className="mt-10 lg:hidden  object-cover"
           src="/frame1.png"
