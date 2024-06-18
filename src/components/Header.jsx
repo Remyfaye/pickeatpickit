@@ -6,16 +6,15 @@ const Header = () => {
   const [active, setActive] = useState("home");
 
   return (
-    <div className="relative h-[90vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize  p-5">
+    <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize  p-5">
       {/* header */}
       <header className="flex items-center justify-between lg:px-10">
         {/* logo */}
-
         <div className="flex items-center  ">
           <Image
             className="ml-[-33px]"
             src="/logo-2.png"
-            alt="img2"
+            alt="img"
             width={100}
             height={100}
           />
