@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex items-center  ">
             <Image
               className="ml-[-33px]"
-              src="/logo-2.png"
+              src="/Logo-2.png"
               alt="imgf"
               width={100}
               height={100}
