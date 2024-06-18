@@ -10,8 +10,8 @@ const FeedBack = () => {
       <div className="lg:grid  gap-3 grid-cols-4">
         {feedbackData?.map((item) => (
           <>
-            <div className="border pb-3 lg:h-[15rem] custom-scrollbar shadow-md overflow-y-auto rounded-lg my-3 p-3">
-              <div className="flex  gap-3">
+            <div className="border pb-3 lg:h-[15rem] custom-scrollbar shadow-md overflow-y-auto rounded-lg my-5 p-3">
+              <div className="flex  gap-5">
                 <Image
                   className=" rounded-full object-cover h-[2rem] w-[2rem]"
                   src={item.image}
