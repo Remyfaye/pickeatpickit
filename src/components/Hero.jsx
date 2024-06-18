@@ -22,7 +22,7 @@ const Hero = () => {
         // objectFit="cover"
       />
 
-      <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize  p-5">
+      <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize py-3  px-5">
         {/* header */}
         <header className="flex items-center justify-between lg:px-10">
           {/* logo */}
@@ -68,7 +68,7 @@ const Hero = () => {
         </header>
 
         {/* hero */}
-        <div className="mt-[2rem] flex max-w-3xl mx-auto flex-col justify-center items-center">
+        <div className=" flex max-w-3xl mx-auto flex-col justify-center items-center">
           <h1 className="header-text lg:header-text-lg lg:mt-10">
             your one-step destination for food delivery and courier services
           </h1>
@@ -83,34 +83,40 @@ const Hero = () => {
             </p>
             <button className="btn hidden lg:flex ">Search</button>
           </div>
-          <button className="btn mt-8 lg:hidden ">Search</button>
+          <button className="btn my-8 lg:hidden ">Search</button>
+
+          {/* form */}
+          <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10  lg:mt-[-8rem]  max-w-2xl lg:mx-auto rounded-xl p-5">
+            <h1 className="hero-form-text font-bold">
+              Send a package with ease
+            </h1>
+            <p className="mb-7 text-gray-400 text-sm">
+              Fields for the courier service section
+            </p>
+            <div className="lg:grid grid-cols-2 gap-3">
+              <input
+                className="border-[#FFD700]"
+                placeholder="Pickup location"
+              />
+              <input placeholder="Drop off location" />
+              <input placeholder="Type of item" />
+              <input placeholder="weight " />
+              <textarea
+                className="mt-4 w-full lg:hidden "
+                placeholder="Additional details "
+              ></textarea>
+            </div>
+            <textarea
+              className="mt-4 hidden  lg:flex w-[75%] mx-auto"
+              placeholder="Additional details "
+            ></textarea>
+            <p className="text-gray-300 my-5 font-[200] text-[9px] lg:text-[15.27px]">
+              Estimated cost and dilivery time dynamically displayed based on
+              the user's input
+            </p>
+            <button className="btn">Send</button>
+          </div>
         </div>
-      </div>
-      {/* form */}
-      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-6rem] max-w-2xl lg:mx-auto rounded-xl p-5">
-        <h1 className="hero-form-text font-bold">Send a package with ease</h1>
-        <p className="mb-7 text-gray-400 text-sm">
-          Fields for the courier service section
-        </p>
-        <div className="lg:grid grid-cols-2 gap-3">
-          <input className="border-[#FFD700]" placeholder="Pickup location" />
-          <input placeholder="Drop off location" />
-          <input placeholder="Type of item" />
-          <input placeholder="weight " />
-          <textarea
-            className="mt-4 w-full lg:hidden "
-            placeholder="Additional details "
-          ></textarea>
-        </div>
-        <textarea
-          className="mt-4 hidden  lg:flex w-[75%] mx-auto"
-          placeholder="Additional details "
-        ></textarea>
-        <p className="text-gray-300 my-5 font-[200] text-[9px] lg:text-[15.27px]">
-          Estimated cost and dilivery time dynamically displayed based on the
-          user's input
-        </p>
-        <button className="btn">Send</button>
       </div>
     </section>
   );
