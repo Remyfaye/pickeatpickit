@@ -3,7 +3,7 @@ import React from "react";
 
 const FeaturedResturants = () => {
   return (
-    <section className="p-5 mt-8 lg:px-32 lg:flex flex-col justify-center items-center ">
+    <section className="p-5 text-black my-5  mt-10 lg:px-32 lg:flex flex-col justify-center items-center ">
       <h1 className="text-3xl text-black/80">Savor the flavours:</h1>
       <h1 className="text-3xl text-black/80">
         featured resturants on pickEatPickIt
@@ -14,7 +14,7 @@ const FeaturedResturants = () => {
       </p>
 
       <div className="lg:flex gap-5 mt-5">
-        <div className="border rounded-lg">
+        <div className="border rounded-lg ">
           <div className="flex flex-col items-center justify-center gap-3 p-3">
             <Image
               className="w-full object-cover lg:h-[10rem] h-[13rem]"
@@ -32,7 +32,7 @@ const FeaturedResturants = () => {
           </div>
         </div>
 
-        <div className="border rounded-lg">
+        <div className="border rounded-lg my-5">
           <div className="flex flex-col items-center justify-center gap-3 p-3">
             <Image
               className="w-full object-cover h-[13rem] lg:h-[10rem]"

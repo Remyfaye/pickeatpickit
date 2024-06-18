@@ -19,7 +19,7 @@ const Landing = () => {
           // objectFit="cover"
         />
       </div>
-      <section className="mb-5 p-5 lg:flex mt-20 lg:mt-32 lg:px-32 gap-7 items-center">
+      <section className="mb-5 p-5 lg:flex mt-20 text-gray-800 lg:mt-32 lg:px-32 gap-7 items-center">
         <div className="lg:w-[50%]">
           <h1 className="capitalize text-2xl font-bold lg:text-4xl text-center mx-auto">
             {" "}
@@ -92,18 +92,16 @@ const Landing = () => {
         // objectFit="cover"
       />
       <Image
-        className="lg:px-32 lg:hidden object-cover"
+        className="lg:px-32 mb-10 lg:hidden object-cover"
         src="/mf1.png"
         alt="img"
         width={2000}
         height={2000}
-        // layout="fill"
-        // objectFit="cover"
       />
 
       {/* how it works */}
       <Image
-        className="lg:px-32 mt-3 object-cover hidden lg:flex"
+        className="lg:px-32 mt-3 my-5 object-cover hidden lg:flex"
         src="/hiw.png"
         alt="img"
         width={2000}
@@ -111,15 +109,6 @@ const Landing = () => {
         // layout="fill"
         // objectFit="cover"
       />
-      {/* <Image
-        className="lg:px-32 max-w-sm overflow-x-hidden lg:hidden mt-3 object-cover"
-        src="/mhiw.png"
-        alt="img"
-        width={2000}
-        height={2000}
-        // layout="fill"
-        // objectFit="cover"
-      /> */}
 
       {/* our trusted courier */}
       <Image
