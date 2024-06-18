@@ -12,16 +12,16 @@ const Hero = () => {
   const [active, setActive] = useState("home");
   return (
     <section className="w-full ">
+      {/* background image */}
       <Image
         className="absolute w-full lg:h-[95%]  h-screen object-cover"
         src="/bg.jpg"
         alt="img"
         width={500}
         height={500}
-        // layout="fill"
-        // objectFit="cover"
       />
 
+      {/* after header(body) */}
       <div className="relative h-[100vh] lg:h-[95vh] inset-0 bg-black/50 text-white  capitalize py-3  px-3">
         {/* header */}
         <header className="flex items-center justify-between lg:px-10">
@@ -30,7 +30,7 @@ const Hero = () => {
             <Image
               className="ml-[-33px]"
               src="/logo-2.png"
-              alt="img"
+              alt="imgf"
               width={100}
               height={100}
             />
