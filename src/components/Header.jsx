@@ -10,25 +10,12 @@ const Header = () => {
       {/* header */}
       <header className="flex items-center justify-between lg:px-10">
         {/* logo */}
-        {/* <div className="flex  items-center gap-3">
-        <div className="">
-          <Image
-            className=" object-cover"
-            src="/logo-3.png"
-            alt="img"
-            width={90}
-            height={90}
-            // layout="fill"
-            // objectFit="cover"
-          />
-        </div>
-        <h1 className="mt-2 mr-5">PickEatPickIt</h1>
-      </div> */}
+
         <div className="flex items-center  ">
           <Image
             className="ml-[-33px]"
             src="/logo-2.png"
-            alt="img"
+            alt="img2"
             width={100}
             height={100}
           />

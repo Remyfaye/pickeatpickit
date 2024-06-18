@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section className="w-full ">
       <Image
-        className="absolute w-full lg:h-[95%]  h-[90%] object-cover"
+        className="absolute w-full lg:h-[95%]  h-full object-cover"
         src="/bg.jpg"
         alt="img"
         width={500}
@@ -24,7 +24,7 @@ const Hero = () => {
       <Header />
 
       {/* form */}
-      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-10rem] max-w-2xl lg:mx-auto rounded-xl p-5">
+      <div className="flex  mx-5 flex-col  items-center shadow-xl bg-white mb-10 relative lg:mt-[-8rem] mt-[-8rem] max-w-2xl lg:mx-auto rounded-xl p-5">
         <h1 className="hero-form-text font-bold">Send a package with ease</h1>
         <p className="mb-7 text-gray-400 text-sm">
           Fields for the courier service section
